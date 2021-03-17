@@ -20,9 +20,9 @@ talents:
   - name: Flurry
     rank: 5
   - name: Improved Whirlwind
-    rank: 1
+    rank: 2
   - name: Precision
-    rank: 3
+    rank: 2
   - name: Sweeping Strikes
     rank: 1
   - name: Bloodthirst
@@ -45,14 +45,15 @@ talents:
 # Assumes BS/LW professions, no PvP gear
 gear:
   mainHand:
-    name: Drakefist Hammer
+    name: Dragonmaw
     enchant: Mongoose
   offHand:
-    name: Drakefist Hammer
+    name: Dragonmaw
     # No Executioner until ZA
     enchant: Mongoose
   rangedLibramTotem:
-    name: Felsteel Whisper Knives
+     # name: Mama's Insurance
+     name: Felsteel Whisper Knives
   head:
     name: Wastewalker Helm
     enchant: Glyph of Ferocity
@@ -100,7 +101,7 @@ gear:
     name: Shaffar's Band of Brutality
     enchant: Stats (Ring)
   ring2:
-    name: Ring of Umbral Doom
+    name: Shapeshifter's Signet
     enchant: Stats (Ring)
   trinket1:
     name: Hourglass of the Unraveller

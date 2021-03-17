@@ -3877,7 +3877,8 @@ public object ItemIndex {
       { BrightbrewCharm() },
       { DirebrewsShanker() },
       { BalebrewCharm() },
-      { TheHorsemansBlade() }
+      { TheHorsemansBlade() },
+      { MamasInsurance() }
       )
 
 }

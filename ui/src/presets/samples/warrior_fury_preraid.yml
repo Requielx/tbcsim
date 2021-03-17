@@ -20,9 +20,9 @@ talents:
   - name: Flurry
     rank: 5
   - name: Improved Whirlwind
-    rank: 1
+    rank: 2
   - name: Precision
-    rank: 3
+    rank: 2
   - name: Sweeping Strikes
     rank: 1
   - name: Bloodthirst
@@ -42,27 +42,29 @@ talents:
     rank: 2
 
 # Pre-raid BIS-ish
-# Assumes BS/LW professions, no PvP gear
+# Assumes BS/LW professions, no PvP gear, No pre 2.1 gear (the good meta gems, Ragesteel shoulders, goggles, etc.)
+
 gear:
   mainHand:
-    name: Drakefist Hammer
+    name: Dragonmaw
     enchant: Mongoose
   offHand:
-    name: Drakefist Hammer
+    name: Dragonmaw
     # No Executioner until ZA
     enchant: Mongoose
   rangedLibramTotem:
-    name: Felsteel Whisper Knives
+     name: Felsteel Whisper Knives
   head:
-    name: Wastewalker Helm
+    name: Overlord's Helmet of Second Sight
     enchant: Glyph of Ferocity
     gems:
-      - Bold Living Ruby
-      - Relentless Earthstorm Diamond
+      - Smooth Dawnstone
+      - Smooth Dawnstone
+      - Smooth Dawnstone
   neck:
     name: Traitor's Noose
   shoulders:
-    name: Ragesteel Shoulders
+    name: Mantle of Perenolde
     enchant: Greater Inscription of Vengeance
     gems:
       - Smooth Dawnstone
@@ -71,7 +73,7 @@ gear:
     name: Vengeance Wrap
     enchant: Greater Agility
     gems:
-      - Bold Living Ruby
+      - Inscribed Noble Topaz
   chest:
     name: Chestplate of A'dal
     enchant: Exceptional Stats
@@ -79,28 +81,31 @@ gear:
     name: Black Felsteel Bracers
     enchant: Brawn
   hands:
-    name: Cobrascale Gloves
+    name: Fel Leather Gloves
     enchant: Major Strength
+    gems:
+      - Smooth Dawnstone
+      - Inscribed Noble Topaz
+
   waist:
     name: Girdle of the Deathdealer
+
   legs:
-    name: Fel Leather Leggings
+    name: Clefthoof Hide Leggings
     enchant: Nethercobra Leg Armor
-    gems:
-      - Sovereign Nightseye
-      - Smooth Dawnstone
-      - Smooth Dawnstone
+
   feet:
     name: Fel Leather Boots
     enchant: Cat's Swiftness
     gems:
       - Smooth Dawnstone
-      - Sovereign Nightseye
+      - Inscribed Noble Topaz
+
   ring1:
     name: Shaffar's Band of Brutality
     enchant: Stats (Ring)
   ring2:
-    name: Ring of Umbral Doom
+    name: Shapeshifter's Signet
     enchant: Stats (Ring)
   trinket1:
     name: Hourglass of the Unraveller
@@ -136,6 +141,11 @@ rotation:
     - name: Execute
     - name: Bloodthirst
     - name: Whirlwind
+      criteria:
+      #don't cast if BT comes up in the next GCD
+        - type: ABILITY_COOLDOWN_GTE
+          ability: Bloodthirst
+          seconds: 1.5
     - name: Heroic Strike
       criteria:
         # Cast HS if we have 60 rage or more
@@ -179,7 +189,7 @@ raidBuffs:
 
 raidDebuffs:
   # Sunder Armor and Imp EA cannot be applied at the same time
-  # If Imp EA becomes active, it will replace Sunderm and further Sunders will not apply
+  # If Imp EA becomes active, it will replace Sunder and further Sunders will not apply
   # To test with Sunder, comment out Imp EA
   - Sunder Armor
   - Improved Expose Armor

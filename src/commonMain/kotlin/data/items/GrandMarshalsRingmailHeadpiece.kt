@@ -54,7 +54,9 @@ public class GrandMarshalsRingmailHeadpiece : Item() {
   public override var stats: Stats = Stats(
       stamina = 33,
       intellect = 21,
-      spellCritRating = 16.0
+      armor = 530,
+      spellCritRating = 16.0,
+      resilienceRating = 16.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

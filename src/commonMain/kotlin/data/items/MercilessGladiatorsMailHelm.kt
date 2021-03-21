@@ -54,7 +54,9 @@ public class MercilessGladiatorsMailHelm : Item() {
   public override var stats: Stats = Stats(
       stamina = 60,
       intellect = 19,
-      spellCritRating = 22.0
+      armor = 775,
+      spellCritRating = 22.0,
+      resilienceRating = 32.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

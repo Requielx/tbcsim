@@ -46,7 +46,9 @@ public class HighWarlordsBarricade : Item() {
   public override var speed: Double = 0.0
 
   public override var stats: Stats = Stats(
-      stamina = 36
+      stamina = 36,
+      armor = 3806,
+      resilienceRating = 23.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

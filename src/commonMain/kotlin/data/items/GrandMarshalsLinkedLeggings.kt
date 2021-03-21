@@ -52,7 +52,9 @@ public class GrandMarshalsLinkedLeggings : Item() {
       strength = 22,
       stamina = 42,
       intellect = 22,
-      physicalCritRating = 28.0
+      armor = 570,
+      physicalCritRating = 28.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

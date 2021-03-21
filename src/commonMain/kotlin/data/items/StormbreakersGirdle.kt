@@ -48,7 +48,9 @@ public class StormbreakersGirdle : Item() {
   public override var stats: Stats = Stats(
       stamina = 28,
       intellect = 19,
-      spellCritRating = 19.0
+      armor = 321,
+      spellCritRating = 19.0,
+      resilienceRating = 19.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

@@ -54,7 +54,9 @@ public class MercilessGladiatorsDreadweaveMantle : Item() {
   public override var stats: Stats = Stats(
       stamina = 45,
       intellect = 10,
-      spellHitRating = 13.0
+      armor = 311,
+      spellHitRating = 13.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

@@ -52,7 +52,9 @@ public class MercilessGladiatorsRingmailLeggings : Item() {
   public override var stats: Stats = Stats(
       stamina = 58,
       intellect = 29,
-      spellCritRating = 25.0
+      armor = 835,
+      spellCritRating = 25.0,
+      resilienceRating = 33.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

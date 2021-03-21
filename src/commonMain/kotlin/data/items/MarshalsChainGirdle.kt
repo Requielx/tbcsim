@@ -50,7 +50,9 @@ public class MarshalsChainGirdle : Item() {
       agility = 27,
       stamina = 39,
       intellect = 18,
-      physicalCritRating = 14.0
+      armor = 487,
+      physicalCritRating = 14.0,
+      resilienceRating = 18.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

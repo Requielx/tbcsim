@@ -52,7 +52,9 @@ public class GrandMarshalsRingmailLegguards : Item() {
   public override var stats: Stats = Stats(
       stamina = 36,
       intellect = 24,
-      spellCritRating = 22.0
+      armor = 570,
+      spellCritRating = 22.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

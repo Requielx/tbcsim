@@ -54,7 +54,9 @@ public class MercilessGladiatorsScaledHelm : Item() {
       strength = 51,
       stamina = 54,
       intellect = 26,
-      physicalCritRating = 18.0
+      armor = 1385,
+      physicalCritRating = 18.0,
+      resilienceRating = 19.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

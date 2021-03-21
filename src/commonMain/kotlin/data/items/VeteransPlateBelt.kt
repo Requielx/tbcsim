@@ -48,7 +48,9 @@ public class VeteransPlateBelt : Item() {
   public override var stats: Stats = Stats(
       strength = 31,
       stamina = 45,
-      physicalCritRating = 31.0
+      armor = 959,
+      physicalCritRating = 31.0,
+      resilienceRating = 30.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

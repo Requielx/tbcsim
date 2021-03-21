@@ -53,7 +53,9 @@ public class MercilessGladiatorsChainGauntlets : Item() {
       agility = 30,
       stamina = 48,
       intellect = 13,
-      physicalCritRating = 17.0
+      armor = 596,
+      physicalCritRating = 17.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

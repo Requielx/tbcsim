@@ -51,7 +51,9 @@ public class VengefulGladiatorsMoonclothLeggings : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 70,
-      intellect = 28
+      intellect = 28,
+      armor = 424,
+      resilienceRating = 31.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

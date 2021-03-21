@@ -54,7 +54,9 @@ public class VindicatorsDragonhideBracers : Item() {
       strength = 22,
       agility = 22,
       stamina = 29,
-      physicalCritRating = 21.0
+      armor = 236,
+      physicalCritRating = 21.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

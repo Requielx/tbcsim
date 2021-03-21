@@ -52,7 +52,9 @@ public class HighWarlordsSilkTrousers : Item() {
   public override var stats: Stats = Stats(
       stamina = 42,
       intellect = 22,
-      spellCritRating = 22.0
+      armor = 136,
+      spellCritRating = 22.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

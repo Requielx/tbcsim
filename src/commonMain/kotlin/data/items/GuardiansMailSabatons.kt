@@ -52,7 +52,9 @@ public class GuardiansMailSabatons : Item() {
   public override var stats: Stats = Stats(
       stamina = 49,
       intellect = 34,
-      spellCritRating = 34.0
+      armor = 763,
+      spellCritRating = 34.0,
+      resilienceRating = 27.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

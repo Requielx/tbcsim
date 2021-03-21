@@ -49,7 +49,9 @@ public class AvengersWaistguard : Item() {
       strength = 25,
       stamina = 24,
       intellect = 11,
-      physicalCritRating = 12.0
+      armor = 573,
+      physicalCritRating = 12.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

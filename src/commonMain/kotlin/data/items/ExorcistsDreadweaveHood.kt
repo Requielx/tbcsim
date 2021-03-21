@@ -50,7 +50,9 @@ public class ExorcistsDreadweaveHood : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 34,
-      intellect = 25
+      intellect = 25,
+      armor = 111,
+      resilienceRating = 20.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

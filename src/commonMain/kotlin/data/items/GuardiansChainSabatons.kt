@@ -53,7 +53,9 @@ public class GuardiansChainSabatons : Item() {
       agility = 37,
       stamina = 52,
       intellect = 27,
-      physicalCritRating = 22.0
+      armor = 763,
+      physicalCritRating = 22.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

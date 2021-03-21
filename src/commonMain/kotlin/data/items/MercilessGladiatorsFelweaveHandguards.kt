@@ -52,7 +52,9 @@ public class MercilessGladiatorsFelweaveHandguards : Item() {
   public override var stats: Stats = Stats(
       stamina = 46,
       intellect = 15,
-      spellCritRating = 19.0
+      armor = 283,
+      spellCritRating = 19.0,
+      resilienceRating = 23.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

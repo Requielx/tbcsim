@@ -54,7 +54,9 @@ public class BrutalGladiatorsWyrmhideTunic : Item() {
   public override var stats: Stats = Stats(
       stamina = 62,
       intellect = 33,
-      spellCritRating = 18.0
+      armor = 541,
+      spellCritRating = 18.0,
+      resilienceRating = 27.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

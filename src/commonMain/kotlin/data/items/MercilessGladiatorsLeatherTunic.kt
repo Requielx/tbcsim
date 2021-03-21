@@ -54,7 +54,9 @@ public class MercilessGladiatorsLeatherTunic : Item() {
   public override var stats: Stats = Stats(
       agility = 37,
       stamina = 57,
-      physicalCritRating = 13.0
+      armor = 428,
+      physicalCritRating = 13.0,
+      resilienceRating = 25.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

@@ -52,7 +52,9 @@ public class GladiatorsMailGauntlets : Item() {
   public override var stats: Stats = Stats(
       stamina = 36,
       intellect = 18,
-      spellCritRating = 21.0
+      armor = 541,
+      spellCritRating = 21.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

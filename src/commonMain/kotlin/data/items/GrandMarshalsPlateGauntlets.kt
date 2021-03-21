@@ -52,7 +52,9 @@ public class GrandMarshalsPlateGauntlets : Item() {
   public override var stats: Stats = Stats(
       strength = 22,
       stamina = 30,
-      physicalCritRating = 21.0
+      armor = 728,
+      physicalCritRating = 21.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

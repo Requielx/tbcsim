@@ -53,7 +53,9 @@ public class SavagePlateShoulders : Item() {
   public override var stats: Stats = Stats(
       strength = 14,
       stamina = 36,
-      physicalCritRating = 17.0
+      armor = 873,
+      physicalCritRating = 17.0,
+      resilienceRating = 13.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

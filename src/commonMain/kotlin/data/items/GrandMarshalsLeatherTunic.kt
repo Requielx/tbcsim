@@ -54,7 +54,9 @@ public class GrandMarshalsLeatherTunic : Item() {
   public override var stats: Stats = Stats(
       agility = 20,
       stamina = 42,
-      physicalCritRating = 10.0
+      armor = 292,
+      physicalCritRating = 10.0,
+      resilienceRating = 24.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

@@ -52,7 +52,9 @@ public class VengefulGladiatorsLinkedGauntlets : Item() {
   public override var stats: Stats = Stats(
       strength = 33,
       stamina = 51,
-      physicalCritRating = 32.0
+      armor = 639,
+      physicalCritRating = 32.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

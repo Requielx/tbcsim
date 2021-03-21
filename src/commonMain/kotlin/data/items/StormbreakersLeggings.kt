@@ -51,7 +51,9 @@ public class StormbreakersLeggings : Item() {
   public override var stats: Stats = Stats(
       stamina = 39,
       intellect = 16,
-      spellCritRating = 14.0
+      armor = 499,
+      spellCritRating = 14.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

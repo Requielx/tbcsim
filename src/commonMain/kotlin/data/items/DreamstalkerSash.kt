@@ -50,7 +50,9 @@ public class DreamstalkerSash : Item() {
       strength = 15,
       agility = 14,
       stamina = 24,
-      intellect = 15
+      intellect = 15,
+      armor = 184,
+      resilienceRating = 15.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

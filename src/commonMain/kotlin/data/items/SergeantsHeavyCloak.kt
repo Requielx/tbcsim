@@ -48,7 +48,9 @@ public class SergeantsHeavyCloak : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 27,
-      physicalCritRating = 19.0
+      armor = 104,
+      physicalCritRating = 19.0,
+      resilienceRating = 19.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

@@ -52,7 +52,9 @@ public class GuardiansScaledGreaves : Item() {
       strength = 44,
       stamina = 45,
       intellect = 30,
-      physicalCritRating = 31.0
+      armor = 1363,
+      physicalCritRating = 31.0,
+      resilienceRating = 26.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

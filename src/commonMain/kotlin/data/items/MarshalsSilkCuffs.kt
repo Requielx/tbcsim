@@ -51,7 +51,9 @@ public class MarshalsSilkCuffs : Item() {
   public override var stats: Stats = Stats(
       stamina = 22,
       intellect = 17,
-      spellCritRating = 12.0
+      armor = 84,
+      spellCritRating = 12.0,
+      resilienceRating = 11.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

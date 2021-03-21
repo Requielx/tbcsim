@@ -52,7 +52,9 @@ public class VindicatorsRingmailSabatons : Item() {
   public override var stats: Stats = Stats(
       stamina = 43,
       intellect = 30,
-      spellCritRating = 29.0
+      armor = 702,
+      spellCritRating = 29.0,
+      resilienceRating = 27.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

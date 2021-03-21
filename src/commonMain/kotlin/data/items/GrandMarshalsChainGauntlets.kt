@@ -53,7 +53,9 @@ public class GrandMarshalsChainGauntlets : Item() {
       agility = 21,
       stamina = 31,
       intellect = 6,
-      physicalCritRating = 11.0
+      armor = 407,
+      physicalCritRating = 11.0,
+      resilienceRating = 14.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

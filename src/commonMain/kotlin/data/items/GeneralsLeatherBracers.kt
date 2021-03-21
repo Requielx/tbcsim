@@ -51,7 +51,9 @@ public class GeneralsLeatherBracers : Item() {
   public override var stats: Stats = Stats(
       agility = 19,
       stamina = 25,
-      physicalCritRating = 7.0
+      armor = 157,
+      physicalCritRating = 7.0,
+      resilienceRating = 13.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

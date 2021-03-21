@@ -53,7 +53,9 @@ public class GrandMarshalsScaledGauntlets : Item() {
       strength = 28,
       stamina = 25,
       intellect = 12,
-      physicalCritRating = 12.0
+      armor = 728,
+      physicalCritRating = 12.0,
+      resilienceRating = 12.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

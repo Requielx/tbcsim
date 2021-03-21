@@ -52,7 +52,9 @@ public class GladiatorsLeatherLegguards : Item() {
   public override var stats: Stats = Stats(
       agility = 36,
       stamina = 54,
-      physicalCritRating = 19.0
+      armor = 340,
+      physicalCritRating = 19.0,
+      resilienceRating = 36.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

@@ -53,8 +53,10 @@ public class MercilessGladiatorsPlateChestpiece : Item() {
   public override var stats: Stats = Stats(
       strength = 35,
       stamina = 60,
+      armor = 1704,
       physicalCritRating = 35.0,
-      physicalHitRating = 14.0
+      physicalHitRating = 14.0,
+      resilienceRating = 24.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

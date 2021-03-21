@@ -53,7 +53,9 @@ public class BrutalGladiatorsPlateShoulders : Item() {
   public override var stats: Stats = Stats(
       strength = 38,
       stamina = 64,
-      physicalCritRating = 35.0
+      armor = 1487,
+      physicalCritRating = 35.0,
+      resilienceRating = 20.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

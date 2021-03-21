@@ -52,7 +52,9 @@ public class DreamstalkerLeggings : Item() {
       strength = 20,
       agility = 7,
       stamina = 30,
-      intellect = 10
+      intellect = 10,
+      armor = 284,
+      resilienceRating = 20.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

@@ -52,7 +52,9 @@ public class GuardiansLamellarBelt : Item() {
   public override var stats: Stats = Stats(
       stamina = 49,
       intellect = 35,
-      spellCritRating = 34.0
+      armor = 1115,
+      spellCritRating = 34.0,
+      resilienceRating = 26.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

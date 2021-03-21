@@ -54,7 +54,9 @@ public class SeersMailArmor : Item() {
   public override var stats: Stats = Stats(
       stamina = 42,
       intellect = 14,
-      spellCritRating = 18.0
+      armor = 652,
+      spellCritRating = 18.0,
+      resilienceRating = 18.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

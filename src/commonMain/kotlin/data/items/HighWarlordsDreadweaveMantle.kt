@@ -54,7 +54,9 @@ public class HighWarlordsDreadweaveMantle : Item() {
   public override var stats: Stats = Stats(
       stamina = 19,
       intellect = 15,
-      spellHitRating = 6.0
+      armor = 117,
+      spellHitRating = 6.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

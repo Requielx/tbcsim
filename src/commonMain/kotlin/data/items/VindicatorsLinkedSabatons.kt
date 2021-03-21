@@ -52,7 +52,9 @@ public class VindicatorsLinkedSabatons : Item() {
       strength = 33,
       stamina = 49,
       intellect = 23,
-      physicalCritRating = 34.0
+      armor = 702,
+      physicalCritRating = 34.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

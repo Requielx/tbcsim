@@ -54,8 +54,10 @@ public class BrutalGladiatorsLeatherTunic : Item() {
   public override var stats: Stats = Stats(
       agility = 36,
       stamina = 71,
+      armor = 569,
       physicalCritRating = 22.0,
-      physicalHitRating = 17.0
+      physicalHitRating = 17.0,
+      resilienceRating = 25.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

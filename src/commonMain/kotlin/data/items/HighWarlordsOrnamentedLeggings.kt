@@ -52,7 +52,9 @@ public class HighWarlordsOrnamentedLeggings : Item() {
   public override var stats: Stats = Stats(
       stamina = 39,
       intellect = 26,
-      spellCritRating = 24.0
+      armor = 1019,
+      spellCritRating = 24.0,
+      resilienceRating = 24.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

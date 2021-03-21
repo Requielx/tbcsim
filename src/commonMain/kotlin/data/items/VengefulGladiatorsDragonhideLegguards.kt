@@ -53,7 +53,9 @@ public class VengefulGladiatorsDragonhideLegguards : Item() {
       strength = 36,
       agility = 37,
       stamina = 55,
-      intellect = 30
+      intellect = 30,
+      armor = 443,
+      resilienceRating = 29.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

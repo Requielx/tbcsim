@@ -54,7 +54,9 @@ public class VengefulGladiatorsLamellarShoulders : Item() {
   public override var stats: Stats = Stats(
       stamina = 44,
       intellect = 23,
-      spellCritRating = 28.0
+      armor = 1369,
+      spellCritRating = 28.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

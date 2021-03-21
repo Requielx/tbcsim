@@ -54,7 +54,9 @@ public class HighWarlordsLinkedArmor : Item() {
   public override var stats: Stats = Stats(
       strength = 12,
       stamina = 42,
-      physicalCritRating = 14.0
+      armor = 652,
+      physicalCritRating = 14.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

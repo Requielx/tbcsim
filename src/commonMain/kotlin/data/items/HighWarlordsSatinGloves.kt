@@ -51,7 +51,9 @@ public class HighWarlordsSatinGloves : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 33,
-      intellect = 15
+      intellect = 15,
+      armor = 97,
+      resilienceRating = 14.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

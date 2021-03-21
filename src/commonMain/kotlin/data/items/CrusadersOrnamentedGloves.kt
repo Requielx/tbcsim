@@ -52,7 +52,9 @@ public class CrusadersOrnamentedGloves : Item() {
   public override var stats: Stats = Stats(
       stamina = 30,
       intellect = 20,
-      spellCritRating = 19.0
+      armor = 728,
+      spellCritRating = 19.0,
+      resilienceRating = 12.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

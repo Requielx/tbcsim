@@ -53,7 +53,9 @@ public class GrandMarshalsPlateHelm : Item() {
   public override var stats: Stats = Stats(
       strength = 20,
       stamina = 34,
-      physicalCritRating = 24.0
+      armor = 946,
+      physicalCritRating = 24.0,
+      resilienceRating = 19.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

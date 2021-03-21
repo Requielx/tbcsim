@@ -49,7 +49,9 @@ public class VeteransMailGirdle : Item() {
   public override var stats: Stats = Stats(
       stamina = 39,
       intellect = 27,
-      spellCritRating = 26.0
+      armor = 537,
+      spellCritRating = 26.0,
+      resilienceRating = 27.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

@@ -52,7 +52,9 @@ public class OpportunistsLeatherGloves : Item() {
   public override var stats: Stats = Stats(
       agility = 21,
       stamina = 31,
-      physicalCritRating = 11.0
+      armor = 183,
+      physicalCritRating = 11.0,
+      resilienceRating = 16.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

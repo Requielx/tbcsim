@@ -62,7 +62,9 @@ public class GeneralsScaledBracers : Item() {
       strength = 26,
       stamina = 22,
       intellect = 11,
-      physicalCritRating = 7.0
+      armor = 624,
+      physicalCritRating = 7.0,
+      resilienceRating = 8.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

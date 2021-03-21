@@ -54,7 +54,9 @@ public class VengefulGladiatorsFelweaveCowl : Item() {
   public override var stats: Stats = Stats(
       stamina = 67,
       intellect = 15,
-      spellCritRating = 22.0
+      armor = 409,
+      spellCritRating = 22.0,
+      resilienceRating = 33.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

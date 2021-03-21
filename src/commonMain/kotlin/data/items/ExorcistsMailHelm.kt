@@ -51,7 +51,9 @@ public class ExorcistsMailHelm : Item() {
   public override var stats: Stats = Stats(
       stamina = 30,
       intellect = 16,
-      spellCritRating = 24.0
+      armor = 463,
+      spellCritRating = 24.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

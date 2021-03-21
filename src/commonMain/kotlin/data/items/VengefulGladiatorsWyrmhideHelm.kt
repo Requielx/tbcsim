@@ -54,7 +54,9 @@ public class VengefulGladiatorsWyrmhideHelm : Item() {
   public override var stats: Stats = Stats(
       stamina = 58,
       intellect = 30,
-      spellCritRating = 17.0
+      armor = 415,
+      spellCritRating = 17.0,
+      resilienceRating = 28.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

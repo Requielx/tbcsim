@@ -54,7 +54,9 @@ public class HighWarlordsLamellarChestpiece : Item() {
   public override var stats: Stats = Stats(
       stamina = 48,
       intellect = 12,
-      spellCritRating = 21.0
+      armor = 1164,
+      spellCritRating = 21.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

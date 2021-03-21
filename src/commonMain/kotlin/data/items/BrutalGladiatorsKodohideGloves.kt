@@ -51,7 +51,9 @@ public class BrutalGladiatorsKodohideGloves : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 49,
-      intellect = 39
+      intellect = 39,
+      armor = 354,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

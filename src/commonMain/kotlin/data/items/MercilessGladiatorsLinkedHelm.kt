@@ -53,7 +53,9 @@ public class MercilessGladiatorsLinkedHelm : Item() {
   public override var stats: Stats = Stats(
       strength = 37,
       stamina = 60,
-      physicalCritRating = 28.0
+      armor = 775,
+      physicalCritRating = 28.0,
+      resilienceRating = 33.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

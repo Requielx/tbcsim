@@ -54,7 +54,9 @@ public class GuardiansLinkedBracers : Item() {
       strength = 28,
       stamina = 37,
       intellect = 17,
-      physicalCritRating = 24.0
+      armor = 471,
+      physicalCritRating = 24.0,
+      resilienceRating = 12.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

@@ -50,7 +50,9 @@ public class SlayersLeggings : Item() {
   public override var stats: Stats = Stats(
       strength = 25,
       stamina = 39,
-      physicalCritRating = 17.0
+      armor = 891,
+      physicalCritRating = 17.0,
+      resilienceRating = 25.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

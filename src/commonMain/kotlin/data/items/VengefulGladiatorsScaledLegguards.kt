@@ -52,7 +52,9 @@ public class VengefulGladiatorsScaledLegguards : Item() {
       strength = 54,
       stamina = 66,
       intellect = 23,
-      physicalCritRating = 36.0
+      armor = 1597,
+      physicalCritRating = 36.0,
+      resilienceRating = 36.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

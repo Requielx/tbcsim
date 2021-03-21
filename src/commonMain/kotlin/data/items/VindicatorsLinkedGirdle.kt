@@ -52,7 +52,9 @@ public class VindicatorsLinkedGirdle : Item() {
       strength = 34,
       stamina = 49,
       intellect = 23,
-      physicalCritRating = 33.0
+      armor = 575,
+      physicalCritRating = 33.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

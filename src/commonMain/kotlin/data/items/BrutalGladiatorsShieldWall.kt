@@ -46,7 +46,9 @@ public class BrutalGladiatorsShieldWall : Item() {
   public override var speed: Double = 0.0
 
   public override var stats: Stats = Stats(
-      stamina = 67
+      stamina = 67,
+      armor = 6662,
+      resilienceRating = 31.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

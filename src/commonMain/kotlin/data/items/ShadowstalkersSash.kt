@@ -49,7 +49,9 @@ public class ShadowstalkersSash : Item() {
   public override var stats: Stats = Stats(
       agility = 17,
       stamina = 24,
-      physicalCritRating = 13.0
+      armor = 144,
+      physicalCritRating = 13.0,
+      resilienceRating = 16.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

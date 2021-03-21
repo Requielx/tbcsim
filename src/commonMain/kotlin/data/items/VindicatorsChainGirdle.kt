@@ -53,7 +53,9 @@ public class VindicatorsChainGirdle : Item() {
       agility = 33,
       stamina = 48,
       intellect = 23,
-      physicalCritRating = 18.0
+      armor = 575,
+      physicalCritRating = 18.0,
+      resilienceRating = 21.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

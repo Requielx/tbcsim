@@ -52,7 +52,9 @@ public class VengefulGladiatorsOrnamentedLegplates : Item() {
   public override var stats: Stats = Stats(
       stamina = 62,
       intellect = 39,
-      spellCritRating = 40.0
+      armor = 1597,
+      spellCritRating = 40.0,
+      resilienceRating = 35.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

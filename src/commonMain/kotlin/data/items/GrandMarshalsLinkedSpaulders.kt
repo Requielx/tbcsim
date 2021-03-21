@@ -54,7 +54,9 @@ public class GrandMarshalsLinkedSpaulders : Item() {
   public override var stats: Stats = Stats(
       strength = 13,
       stamina = 33,
-      physicalCritRating = 17.0
+      armor = 489,
+      physicalCritRating = 17.0,
+      resilienceRating = 13.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

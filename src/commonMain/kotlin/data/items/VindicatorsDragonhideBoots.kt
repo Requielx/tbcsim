@@ -52,7 +52,9 @@ public class VindicatorsDragonhideBoots : Item() {
       strength = 30,
       agility = 29,
       stamina = 42,
-      intellect = 20
+      intellect = 20,
+      armor = 357,
+      resilienceRating = 26.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

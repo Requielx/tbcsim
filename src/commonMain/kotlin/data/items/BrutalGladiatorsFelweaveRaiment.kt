@@ -54,7 +54,9 @@ public class BrutalGladiatorsFelweaveRaiment : Item() {
   public override var stats: Stats = Stats(
       stamina = 68,
       intellect = 21,
-      spellCritRating = 39.0
+      armor = 476,
+      spellCritRating = 39.0,
+      resilienceRating = 26.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(

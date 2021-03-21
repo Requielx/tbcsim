@@ -52,8 +52,10 @@ public class VengefulGladiatorsPlateLegguards : Item() {
   public override var stats: Stats = Stats(
       strength = 51,
       stamina = 70,
+      armor = 1597,
       physicalCritRating = 47.0,
-      physicalHitRating = 12.0
+      physicalHitRating = 12.0,
+      resilienceRating = 22.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

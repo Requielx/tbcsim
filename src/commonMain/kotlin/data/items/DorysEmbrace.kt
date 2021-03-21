@@ -59,7 +59,9 @@ public class DorysEmbrace : Item() {
 
   public override var stats: Stats = Stats(
       stamina = 34,
-      physicalCritRating = 20.0
+      armor = 114,
+      physicalCritRating = 20.0,
+      resilienceRating = 20.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

@@ -52,7 +52,9 @@ public class BrutalGladiatorsOrnamentedGloves : Item() {
   public override var stats: Stats = Stats(
       stamina = 60,
       intellect = 33,
-      spellCritRating = 33.0
+      armor = 1239,
+      spellCritRating = 33.0,
+      resilienceRating = 18.0
       )
 
   public override var sockets: Array<Socket> = arrayOf()

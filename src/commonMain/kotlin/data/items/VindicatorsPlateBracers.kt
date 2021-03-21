@@ -53,7 +53,9 @@ public class VindicatorsPlateBracers : Item() {
   public override var stats: Stats = Stats(
       strength = 25,
       stamina = 36,
-      physicalCritRating = 21.0
+      armor = 772,
+      physicalCritRating = 21.0,
+      resilienceRating = 17.0
       )
 
   public override var sockets: Array<Socket> = arrayOf(
